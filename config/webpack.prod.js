@@ -73,7 +73,8 @@ module.exports = function (env) {
        *
        * See: http://webpack.github.io/docs/configuration.html#output-path
        */
-      path: helpers.root('dist'),
+      path: helpers.root('docs'),
+      publicPath: './take2-web/',
 
       /**
        * Specifies the name of each output file on disk.

@@ -1,3 +1,19 @@
 {
-  "typescript.tsdk": "node_modules/typescript/lib/"
+  "typescript.tsdk": "node_modules/typescript/lib/",
+  "editor.minimap.enabled": true,
+  "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "src/app/**/*.js": true,
+      "src/**/*.map": true
+  },
+  // Controls auto save of dirty files. Accepted values:  "off", "afterDelay", "onFocusChange". If set to "afterDelay" you can configure the delay in "files.autoSaveDelay".
+  "files.autoSave": "onWindowChange",
+
+  "search.exclude": {
+      "**/*.ngsummary.json": true,
+      "**/*.ngfactory.ts": true,
+      "**/dist": true,
+      "**/docs": true,
+  },
 }
