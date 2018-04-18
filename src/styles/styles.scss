@@ -24,7 +24,7 @@ html {
         width: 100%;
         margin: 0;
         font-family: $font-sans;
-        color: $color-night-rider;
+        color: $color-jon;
         font-weight: 400;
         overflow-y: scroll;
 
@@ -34,7 +34,7 @@ html {
             margin: 0;
             padding: 0;
             @include flex;
-            @include flex-layout-row;
+            @include flex-layout-column;
         }
     }
 }

@@ -3,6 +3,7 @@ import { BrowserModule                   } from '@angular/platform-browser';
 import { FormsModule                     } from '@angular/forms';
 import { HttpClientModule                } from '@angular/common/http';
 import { RouterModule, PreloadAllModules } from '@angular/router';
+import { FlexLayoutModule                } from '@angular/flex-layout';
 import { BrowserAnimationsModule         } from '@angular/platform-browser/animations';
 
 /*
@@ -65,6 +66,7 @@ type StoreType = {
             preloadingStrategy: PreloadAllModules
         }),
         MaterialModule,
+        FlexLayoutModule,
 
         /**
          * This section will import the `DevModuleModule` only in certain build types.
