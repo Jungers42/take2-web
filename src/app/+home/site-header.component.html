@@ -1,23 +1,22 @@
-
 <div class="site-header">
-  <div class="site-header-top">
-    <div class="container-logo">
-      <a [routerLink]="['/']" id="logo-take2">
-        <span>TAKE2</span>
-      </a>
-    </div>
-    <span>All your activism in one place</span>
-    <div id="user-account">
-      <button [matMenuTriggerFor]="menu" class="menu-trigger">{{ selectedOrganization?.name }}
-        <mat-icon svgIcon="Dropdown_White"></mat-icon>
-      </button>
+    <div class="site-header-top">
+        <div class="container-logo">
+            <a [routerLink]="['/']" id="logo-take2">
+                <span>TAKE2</span>
+            </a>
+        </div>
+        <span>All your activism in one place</span>
+        <div id="user-account">
+            Welcome
+            <button [matMenuTriggerFor]="menu" class="menu-trigger">Mike Howard
+                <mat-icon svgIcon="Dropdown_White"></mat-icon>
+            </button>
 
-      <mat-menu #menu>
-        <hr>
-        <button (click)="logout()" mat-menu-item>Logout</button>
-      </mat-menu>
+            <mat-menu #menu>
+                <hr>
+                <button (click)="logout()" mat-menu-item>Logout</button>
+            </mat-menu>
+        </div>
     </div>
-  </div>
-  <nav-main></nav-main>
+    <nav-main></nav-main>
 </div>
-
