@@ -8,5 +8,6 @@ export const ROUTES: Routes = [
   // { path: 'about', component: AboutComponent },
   // { path: 'detail', loadChildren: './+detail#DetailModule'},
   // { path: 'barrel', loadChildren: './+barrel#BarrelModule'},
+  { path: 'take2-web',      component: DashboardComponent },
   { path: '**',    component: NoContentComponent },
 ];
