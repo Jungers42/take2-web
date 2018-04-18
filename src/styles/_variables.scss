@@ -1,1 +1,173 @@
-$nav-button-color: #00838F;
+
+/*
+  =====================
+    section: colors
+  =====================
+*/
+
+/**
+ * @note: Names generated via http://www.color-blindness.com/color-name-hue/
+ *        When adding new colors, please use this tool for naming.
+ */
+
+// Blacks
+$color-black: #000000;
+$color-black-00: rgba($color-black, 0);
+$color-black-07: rgba($color-black, 0.07);
+$color-black-10: rgba($color-black, 0.1);
+$color-black-12: rgba($color-black, 0.12);
+$color-black-15: rgba($color-black, 0.15);
+$color-black-20: rgba($color-black, 0.2);
+$color-black-24: rgba($color-black, 0.24);
+$color-black-30: rgba($color-black, 0.3);
+$color-black-38: rgba($color-black, 0.38);
+$color-black-50: rgba($color-black, 0.5);
+
+// Whites
+$color-white: #ffffff;
+$color-white-20: rgba($color-white, 0.2);
+$color-white-50: rgba($color-white, 0.5);
+$color-white-60: rgba($color-white, 0.6);
+$color-white-70: rgba($color-white, 0.7);
+$color-white-80: rgba($color-white, 0.8);
+$color-white-smoke: #efefef;
+$color-white-smoke-75: rgba($color-white-smoke, 0.75);
+
+// Greys
+$color-grey: #7c7c7c;
+$color-gainsboro: #e6e6e6;
+$color-night-rider: #333333;
+$color-night-rider-20: rgba($color-night-rider, 0.2);
+$color-night-rider-25: rgba($color-night-rider, 0.25);
+$color-night-rider-50: rgba($color-night-rider, 0.5);
+
+// $color-grey-chateau: #99a4ad;
+$color-grey-chateau: #939DA4;
+
+$color-nobel: #999999;
+$color-suva-grey: #929292;
+$color-nero: #141414;
+$color-nero-80: rgba($color-nero, 0.8);
+$color-very-light-grey: #cccccc;
+$color-very-light-grey-10: rgba($color-very-light-grey, 0.1);
+$color-dim-gray: #666;
+$color-dark-gray: #aaa;
+$color-silver: #bababa;
+$color-silver-20: rgba($color-silver, 0.2);
+$color-light-slate-grey: #7F8EA1;
+$color-cinder: #1e2225;
+$color-arsenic: #3C444A;
+$color-trout: #4D555C;
+$color-solitude: #E0E0E9;
+
+// Blues
+
+// $color-denim: #1452e3;
+$color-denim: #194ee5;
+$color-ultramarine: #0f15a2;
+$color-black-rock: #2c333f;
+$color-bali-hai: #8493a8;
+$color-navy-blue: #0082d5;
+$color-link-water: #cad3df;
+$color-royal-blue: #4a90e2;
+$color-cello: #3d4d65;
+$color-david-lynch: #62738a;
+$color-cobalt: #004a98;
+
+// $color-pattens-blue: #f1f5f9;
+// $color-pattens-blue: #E4EDF7;
+$color-pattens-blue: #E0E8F3;
+
+$color-black-squeeze: #F5F9FC;
+
+// $color-periwinkle: #C3D1E6;
+$color-periwinkle: #C4D3E7;
+$color-kashmir-blue: #54657e;
+$color-kashmir-blue-30: rgba($color-kashmir-blue, 0.3);
+$color-kashmir-blue-70: rgba($color-kashmir-blue, 0.7);
+
+$color-alice-blue: #F5FAFF;
+//$color-alice-blue: #F9FCFF
+
+$color-hawkes-blue: #E1E7F0;
+$color-polo-blue: #9eadd7;
+$color-solitude: #eeeff3;
+$color-solitude-50: rgba($color-solitude, 0.5);
+$color-picton-blue: #508dd8;
+$color-regent-st-blue: #9DB7D9;
+$color-prussian-blue: #003c7b;
+$color-summer-sky: #4990e2;
+$color-deep-sky-blue: #02bbf1;
+$color-deep-sky-blue-59: rgba($color-deep-sky-blue, 0.59);
+$color-cloud-burst: #313F4B;
+
+// Reds
+$color-torch-red: #fc0d1b;
+$color-cherub: #F6DADC;
+$color-venetian-red: #d0021b;
+$color-alizarin: #d62728;
+$color-cardinal: #C31E45;
+$color-cinnabar: #db4437;
+$color-tomato: #F75D51;
+$color-pumpkin: #F15A22;
+
+// Greens
+$color-sherpa-blue: #00243c;
+// $color-mountain-meadow: #1BB96F;
+$color-mountain-meadow: #1CB96F;
+$color-dark-pastel-green: #04BE5B;
+$color-riptide: #8ae3ba;
+$color-forest-green: #2CA02C;
+$color-dark-cyan: #008c80;
+$color-deep-sea: #107b6d;
+
+// Violets
+$color-tyrian-purple: #590048;
+$color-electric-indigo: #9013fe;
+$color-lavender: #f1f6fb;
+
+// Browns
+$color-brown: #B5362E;
+$color-mahogany: #c94138;
+
+// Oranges
+$color-bittersweet: #f66;
+$color-dark-orange: #ff7f00;
+$color-dark-tangerine: #faa61a;
+$color-orange-peel: #FF9800;
+$color-orange-peel-15: rgba($color-orange-peel, 0.15);
+
+// Yellows
+$color-lightning-yellow: #f79331;
+
+// Transparent
+$color-transparent: transparent;
+
+/*
+  =====================
+    section: fonts
+  =====================
+*/
+
+$font-logo: 'Ubuntu';
+$font-sans: 'Open Sans';
+$font-source: 'Source Sans Pro';
+
+/*
+  =====================
+    section: 12-column grid width values
+  =====================
+*/
+
+$col-1: 11.555rem;         // 7.222rem;
+$col-2: 25.777rem;         // 16.111rem;
+$col-3: 40rem;             // 25.000rem;
+$col-4: 54.222rem;         // 33.889rem;
+$col-5: 68.444rem;         // 42.778rem;
+$col-6: 82.667rem;         // 51.667rem;
+$col-7: 96.889rem;         // 60.556rem;
+$col-8: 111.11rem;         // 69.444rem;
+$col-9: 125.333rem;        // 78.333rem;
+$col-10: 139.555rem;       // 87.222rem;
+$col-11: 153.777rem;       // 96.111rem;
+$col-12: 168rem;           // 105.000rem;

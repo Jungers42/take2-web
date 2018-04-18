@@ -1,0 +1,39 @@
+/*
+  =====================
+    section: helpers
+  =====================
+*/
+
+.bordered {
+    // border: solid 1px $color-kashmir-blue;
+    background-color: $color-white;
+    box-shadow: 0 2px 4px 0 $color-kashmir-blue;
+}
+
+.bordered-top {
+    border-top: 1px $color-gainsboro solid;
+}
+
+.bordered-bottom {
+    border-bottom: 1px $color-gainsboro solid;
+}
+
+.bordered-right {
+    border-right: 1px $color-gainsboro solid;
+}
+
+.height-full {
+    height: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}

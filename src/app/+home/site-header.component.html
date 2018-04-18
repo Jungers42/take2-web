@@ -8,14 +8,14 @@
     </div>
     <span>All your activism in one place</span>
     <div id="user-account">
-      <button class="menu-trigger">{{ selectedOrganization?.name }}
-        <!-- <md-icon svgIcon="Dropdown_White"></md-icon> -->
+      <button [matMenuTriggerFor]="menu" class="menu-trigger">{{ selectedOrganization?.name }}
+        <mat-icon svgIcon="Dropdown_White"></mat-icon>
       </button>
 
-      <!-- <md-menu #menu>
+      <mat-menu #menu>
         <hr>
-        <button (click)="logout()" md-menu-item>Logout</button>
-      </md-menu> -->
+        <button (click)="logout()" mat-menu-item>Logout</button>
+      </mat-menu>
     </div>
   </div>
   <nav-main></nav-main>

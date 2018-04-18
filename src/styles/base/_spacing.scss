@@ -1,0 +1,46 @@
+/*
+  =====================
+    section: margin + padding
+  =====================
+*/
+
+@mixin margin-none {
+    margin: 0;
+}
+
+@mixin padding-default {
+    padding: 1rem;
+}
+
+.margin-none {
+    @include margin-none;
+}
+
+.margin-xy-default {
+    margin: 2.1rem;
+}
+
+.margin-top-default {
+    margin-top: 0.8rem;
+}
+
+.pad-default {
+    @include padding-default;
+}
+
+.pad-x-default {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+}
+
+.pad-container {
+    padding: 2.1rem 5.3rem;
+}
+
+.pad-content {
+    padding: 1.1rem;
+}
+
+.pad-none {
+    padding: 0;
+}

@@ -1,0 +1,44 @@
+/*
+ =====================
+ Flexbox
+ =====================
+*/
+
+@mixin flex {
+    display: flex;
+    flex: 1 1 0;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    -webkit-box-direction: normal;
+}
+
+@mixin flex-default {
+    flex: 1 1 auto;
+}
+
+@mixin flex-wrap {
+    flex-wrap: wrap;
+}
+
+@mixin flex-layout-column {
+    flex-direction: column;
+}
+
+@mixin flex-layout-row {
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+}
+
+/*
+ =====================
+ Typography
+ =====================
+*/
+
+@mixin text-left {
+    text-align: left !important;
+}
+
+@mixin text-right {
+    text-align: right !important;
+}

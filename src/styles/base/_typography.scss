@@ -1,0 +1,97 @@
+/*
+  =====================
+    section: font + typography
+  =====================
+*/
+
+h1 {
+    font-family: $font-sans;
+    font-size: 2.7rem;
+    font-weight: 300;
+    color: $color-night-rider;
+}
+
+h2 {
+    font-family: $font-sans;
+    font-size: 2.1rem;
+    font-weight: 300;
+    color: $color-night-rider;
+}
+
+h3 {
+    font-family: $font-sans;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: $color-night-rider;
+}
+
+link {
+    font-family: $font-sans;
+    letter-spacing: 0.1rem;
+    color: $color-night-rider;
+}
+
+.link-bl {
+    font-family: $font-sans;
+    letter-spacing: 0.1rem;
+    color: $color-royal-blue;
+
+    &:hover {
+        font-family: $font-sans;
+        font-weight: 300;
+        color: $color-royal-blue;
+    }
+}
+
+a.link-nav {
+    font-family: $font-sans;
+    font-size: 4.3rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: $color-night-rider;
+    cursor: pointer;
+
+    &:hover {
+        color: $color-royal-blue;
+        text-decoration: underline;
+    }
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-left {
+    @include text-left;
+}
+
+.text-right {
+    @include text-right;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.text-24 {
+    font-size: 2.1rem;
+}
+
+.text-48 {
+    font-size: 4.3rem;
+}
+
+.title {
+    font-size: 4.3rem;
+}
+
+.title-60 {
+    font-size: 5.3rem;
+    font-weight: 300;
+    color: $color-night-rider;
+    white-space: nowrap;
+}

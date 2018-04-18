@@ -1,0 +1,307 @@
+/*
+  =====================
+    section: loading spinner
+  =====================
+*/
+
+.mat-dialog-container {
+    background: transparent;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/*
+  =====================
+    section: forms
+  =====================
+*/
+
+.mat-input-container {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+
+    &.small {
+        width: 7.1rem;
+
+        .mat-input-element {
+            max-width: 7.1rem;
+        }
+    }
+
+    &.medium {
+        width: 8.4rem;
+
+        .mat-input-element {
+            max-width: 8.4rem;
+        }
+    }
+
+    &.large {
+        width: 15.1rem;
+
+        .mat-input-element {
+            max-width: 15.1rem;
+        }
+    }
+
+    &.right {
+        input.mat-input-element {
+            text-align: right;
+        }
+    }
+
+    &.center {
+        input.mat-input-element {
+            text-align: center;
+        }
+    }
+
+    .mat-input-element:disabled {
+        color: currentColor;
+    }
+}
+
+.mat-input-placeholder-wrapper {
+    overflow: visible !important;
+    top: -1.6rem !important;
+    padding-top: 1.6rem !important;
+}
+
+.mat-focused .mat-input-placeholder.mat-float,
+.mat-input-placeholder.mat-float:not(.mat-empty) {
+    display: block;
+    transform: translate3d(0, -2.2em, 0) scale(1);
+    width: 133.33333%;
+}
+
+div.mat-input-wrapper {
+    margin: 1.1rem 0;
+}
+
+label.mat-input-placeholder {
+    font-family: $font-sans;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 0.044rem;
+    margin-top: 0.4rem;
+    color: $color-black-50;
+}
+
+input.mat-input-element {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+input.mat-input-element,
+textarea.mat-input-element {
+    font-weight: 300;
+    font-family: $font-sans;
+    font-size: 1.6rem;
+}
+
+.mat-input-underline.mat-disabled {
+    background-image: none !important;
+}
+
+.mat-input-error {
+    margin: 0.3rem 0;
+}
+
+.mat-textarea {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+
+    &.small {
+        width: 7.1rem;
+    }
+
+    &.medium {
+        width: 8.4rem;
+    }
+
+    &.right {
+        textarea.mat-input-element {
+            text-align: right;
+        }
+    }
+
+    &.center {
+        textarea.mat-input-element {
+            text-align: center;
+        }
+    }
+
+    textarea.mat-input-element {
+        border: 1px solid $color-white-20;
+        border-radius: 0.2rem;
+        margin-top: 0.4rem;
+        padding: 0.8rem;
+    }
+
+    div.mat-input-underline {
+        border: 0 none transparent !important;
+        background-color: none !important;
+
+        .mat-input-ripple {
+            background-color: transparent !important;
+            border: 0 !important;
+        }
+    }
+
+    label.mat-input-placeholder.mat-empty {
+        font-size: 1.4rem !important;
+        margin-top: 1rem;
+        padding: 1rem;
+        overflow: visible;
+
+        &.mat-focused {
+            font-size: 1.1rem;
+            padding-left: 0;
+            margin-top: 0;
+        }
+    }
+}
+
+.mat-select {
+    &.small {
+        width: 7.1rem;
+
+        .mat-select-element {
+            max-width: 7.1rem;
+        }
+    }
+
+    &.medium {
+        width: 8.4rem;
+
+        .mat-select-element {
+            max-width: 8.4rem;
+        }
+    }
+
+    &.large {
+        width: 19.2rem;
+
+        .mat-select-element {
+            max-width: 19.2rem;
+        }
+    }
+
+    &.right {
+        input.mat-select-element {
+            text-align: right;
+        }
+    }
+
+    &.center {
+        input.mat-select-element {
+            text-align: center;
+        }
+    }
+
+    .mat-select-placeholder.mat-floating-placeholder {
+        top: -1.8rem;
+        font-size: 1.1rem;
+        transform: none !important;
+    }
+}
+
+.mat-select-content {
+    .mat-option {
+        font-size: 1.4rem;
+    }
+}
+
+.mat-select-value-text {
+    font-family: $font-sans;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.mat-select:focus .mat-select-trigger,
+.mat-select .mat-select-trigger,
+.mat-input-container .mat-input-underline {
+    height: 2.8rem;
+}
+
+.mat-dialog-title {
+    position: relative;
+    font-size: 1.6rem !important;
+    font-weight: 300 !important;
+    background-color: $color-cobalt;
+    color: $color-white;
+    margin: 0;
+    padding: 2.1rem 0 1.1rem 1.3rem;
+
+    a[md-icon-button] {
+        position: absolute;
+        bottom: 0.4rem;
+        right: 0.1rem;
+    }
+}
+
+/*
+  =====================
+    section: confirm + alert dialog + upload
+  =====================
+*/
+.cdk-overlay-container {
+    z-index: 2000;
+}
+
+md-card {
+    a {
+        color: $color-night-rider;
+        font-weight: 300;
+        &:hover {
+            color: $color-royal-blue;
+            text-decoration: underline;
+        }
+    }
+
+    md-card-header {
+        height: auto;
+        @include margin-none;
+        @include padding-default;
+
+        p {
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+        .mat-card-header-text {
+            height: auto;
+        }
+    }
+
+    md-card-title {
+        h2 {
+            @include margin-none
+        }
+    }
+
+    span {
+        font-family: $font-sans;
+    }
+}
+
+.mat-dropdown-button {
+    font-size: 1.1rem;
+}
+
+.mat-menu-item {
+    font-size: 1.1rem;
+}
+
+.mat-dropdown-menu-container--open {
+    color: $color-denim;
+}
+
+md-card-actions {
+    margin: auto!important;
+}
+
+.mat-sidenav-backdrop.mat-sidenav-shown {
+    background-color: rgba(0, 0, 0, 0) !important;
+}

@@ -1,0 +1,61 @@
+/*
+  =====================
+    section: flex
+  =====================
+*/
+
+.flex {
+    @include flex;
+}
+
+.flex-wrap {
+    @include flex-wrap;
+}
+
+.layout-column {
+    @include flex-layout-column;
+}
+
+.layout-row {
+    @include flex-layout-row;
+}
+
+.flex-x-center {
+    justify-content: center;
+}
+
+.flex-x-end {
+    justify-content: flex-end;
+}
+
+.flex-x-space-around {
+    justify-content: space-around;
+}
+
+.flex-x-start {
+    justify-content: flex-start;
+}
+
+.flex-x-space-between {
+    justify-content: space-between;
+}
+
+.flex-y-end {
+    -ms-align-items: flex-end;
+    align-items: flex-end;
+}
+
+.flex-y-center {
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.flex-y-start {
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+}
+
+.flex-y-stretch {
+    -ms-align-items: stretch;
+    align-items: stretch;
+}
