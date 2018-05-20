@@ -1,12 +1,10 @@
 <div class="site-header" fxLayout="column">
     <div class="site-header-top" fxFlex fxLayout="row">
-        <div class="container-logo" fxFlex="30">
-            <a [routerLink]="['/']" id="logo-take2">
-                <span>TAKE2</span>
-            </a>
+        <div class="container-logo" fxFlex="20">
+            <a [routerLink]="['/']" id="logo-take2">TAKE2</a>
         </div>
-        <div fxFlex fxLayoutAlign="end">
-            <span>All your activism in one place</span>
+        <div class="container-right" fxFlex fxLayoutAlign="space-between center">
+            <div class="motto">All your activism in one place</div>
             <div id="user-account">
                 Welcome
                 <button [matMenuTriggerFor]="menu" class="menu-trigger">Mike Howard
@@ -14,11 +12,10 @@
                 </button>
 
                 <mat-menu #menu>
-                    <hr>
                     <button (click)="logout()" mat-menu-item>Logout</button>
                 </mat-menu>
             </div>
         </div>
     </div>
-    <nav-main></nav-main>
+    <nav-main fxLayout="row"></nav-main>
 </div>

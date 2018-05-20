@@ -1,3 +1,56 @@
 @import "~styles/_variables";
 
+.site-header-top {
+    color: $color-white;
+    background-color: $color-sinbad;
+    text-transform: capitalize;
 
+    .container-logo {
+        font-family: $font-logo;
+        font-weight: 700;
+        font-size: 3.6rem;
+        text-align: right;
+        padding: 2rem 2rem 2rem 0;
+        margin: 0;
+        background-color: $color-hippie-blue;
+
+        a {
+            text-decoration: none;
+            color: $color-white;
+        }
+    }
+
+    .container-right {
+        div {
+            padding: 2rem;
+            margin: 0;
+            font-size: 1.2rem;
+            font-family: $font-sans;
+            font-weight: 400;
+
+            &.motto {
+                font-family: $font-logo;
+                font-weight: 700;
+                font-size: 2.6rem;
+                text-transform: none;
+            }
+
+            .menu-trigger {
+                background: transparent;
+                appearance: none;
+                border: 0;
+
+                .mat-icon {
+                    width: 1.2rem;
+                    height: 1.2rem;
+                }
+            }
+
+            button {
+                font-size: 1.2rem;
+                font-weight: 300;
+                color: $color-white;
+            }
+        }
+    }
+}
