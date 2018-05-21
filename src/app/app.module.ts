@@ -15,13 +15,16 @@ import { APP_RESOLVER_PROVIDERS      } from './app.resolver';
 import { AppState, InternalStateType } from './app.service';
 import { MaterialModule              } from './material.module';
 
-import { AppComponent        } from './app.component';
-import { AboutComponent      } from './about';
-import { DashboardComponent  } from './dashboard';
-import { HomeComponent       } from './home';
-import { NavMainComponent    } from './+home';
-import { NoContentComponent  } from './no-content';
-import { SiteHeaderComponent } from './+home';
+import { AppComponent           } from './app.component';
+import { AboutComponent         } from './about';
+import { ActionsFilterComponent, ActionsListComponent } from './actions';
+import { DashboardComponent     } from './dashboard';
+import { ActivistGoalsComponent } from './activist';
+import { HighlightHeroComponent } from './dashboard/highlight-hero.component';
+import { HomeComponent          } from './home';
+import { NavMainComponent       } from './+home';
+import { NoContentComponent     } from './no-content';
+import { SiteHeaderComponent    } from './+home';
 
 import { DevModuleModule } from './+dev-module';
 
@@ -47,7 +50,11 @@ type StoreType = {
     declarations: [
         AppComponent,
         AboutComponent,
+        ActionsFilterComponent,
+        ActionsListComponent,
+        ActivistGoalsComponent,
         DashboardComponent,
+        HighlightHeroComponent,
         HomeComponent,
         NavMainComponent,
         NoContentComponent,
