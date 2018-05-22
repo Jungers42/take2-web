@@ -1,34 +1,15 @@
-<div fxFlex fxLayout="row">
-    <div fxFlex="20"></div>
-    <div>
-        <nav id="nav-main" class="nav-main">
-          <a [routerLink]="['/']">
-            <span>Home</span>
-          </a>
-
-          <span>|</span>
-
-          <a [routerLink]="['/take']" routerLinkActive="active">
-            <span>Take Action</span>
-          </a>
-
-          <span>|</span>
-
-          <a [routerLink]="['/submit']" routerLinkActive="active">
-            <span>Submit An Action</span>
-          </a>
-
-          <span>|</span>
-
-          <a [routerLink]="['/howto']" routerLinkActive="active">
-            <span>How To Use Take2</span>
-          </a>
-
-          <span>|</span>
-
-          <a [routerLink]="['/about']" routerLinkActive="active">
-            <span>About</span>
-          </a>
-        </nav>
+<mat-card class="hero">
+    <mat-card-title>Where we need you now > ></mat-card-title>
+    <div fxLayout="row">
+        <img src="assets/img/HashtagBlackLives.png" />
+        <div class="content" fxFlex fxLayout="column">
+            <div class="description" fxFlex>
+                <h2>BLM Southern Rally</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat dui eu dui fermentum, non maximus dolor mollis. Integer nec quam faucibus, mattis lectus id, lobortis est.
+            </div>
+            <div class="invitations">
+                Invite others to take this action:
+            </div>
+        </div>
     </div>
-</div>
+</mat-card>

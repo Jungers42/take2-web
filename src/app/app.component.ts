@@ -5,8 +5,8 @@ import { AppState } from './app.service';
 
 @Component({
     selector     : 'app',
-    // encapsulation: ViewEncapsulation.None,
-    styleUrls    : [ './app.component.css' ],
+    encapsulation: ViewEncapsulation.None,
+    styleUrls    : [ './app.component.scss' ],
     templateUrl  : './app.component.html',
 })
 export class AppComponent implements OnInit {

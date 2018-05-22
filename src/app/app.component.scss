@@ -1,0 +1,20 @@
+@import "~styles/_variables";
+
+.container-content {
+    margin: 1rem 5rem;
+}
+
+.mat-card {
+    font-family: $font-sans;
+    margin-bottom: 2rem;
+}
+
+mat-card-title {
+    background-color: $color-sinbad;
+    color: $color-white;
+    padding: 1.8rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
