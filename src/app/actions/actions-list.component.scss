@@ -1,30 +1,29 @@
 @import "~styles/variables";
 
-.nav-main {
-    padding-left: 2rem;
+.actions.mat-card {
+    padding: 0;
 
-    a {
-        color: $color-jon;
-        text-decoration: none;
-        display: inline-block;
-
-        >span {
-            border-bottom: 0.3rem solid transparent;
-        }
+    .mat-tab-labels {
+        background-color: $color-neptune;
     }
 
-    span {
-        display: inline-block;
-        font-size: 2rem;
-        font-weight: 500;
-        padding: 1.3rem 0;
-        margin: 0 1rem 0 0;
+    .mat-tab-label {
+        height: auto;
+        min-width: auto;
+        padding: 1rem 1.8rem;
+        color: $color-white;
+        opacity: 1;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        font-family: $font-sans;
     }
 
-    a.active {
-        color: $color-hippie-blue;
-        // >span {
-        //     font-weight: 600;
-        // }
+    .mat-tab-label-active {
+        background-color: $color-sinbad;
+        color: $color-white;
+    }
+
+    .mat-ink-bar {
+        background-color: $color-sinbad;
     }
 }
